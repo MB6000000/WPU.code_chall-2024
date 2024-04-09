@@ -1,5 +1,5 @@
 // WPU Coding Challenge 2024
-// 1/366
+// 001/366
 // https://www.codewars.com/kata/57f780909f7e8e3183000078
 
 // function grow(x) {
@@ -15,6 +15,6 @@ function grow(x) {
   return result;
 }
 
-// const grow = (x) => x.reduce((acc, curr) => acc * curr);
+// const grow = (x) => x.reduce((y, z) => y * z);
 
 console.log(grow([2, 2, 2, 2, 2, 2]));
