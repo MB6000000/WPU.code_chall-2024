@@ -1,5 +1,5 @@
 // WPU Coding Challenge 2024
-// 9/366
+// 009/366
 // https://www.codewars.com/kata/577a98a6ae28071780000989
 
 // var min = function (list) {
@@ -25,6 +25,7 @@
 // const min = (list) => list.sort((a, b) => a - b)[0];
 // const max = (list) => list.sort((a, b) => b - a)[0];
 
+//spread [syntax] operator:
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
 
